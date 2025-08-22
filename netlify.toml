@@ -1,0 +1,27 @@
+# netlify.toml
+
+[build]
+  command = "hugo --minify"
+  publish = "public"
+
+[context.production.environment]
+  HUGO_VERSION = "0.148.2"
+  HUGO_ENV = "production"
+  HUGO_ENABLEGITINFO = "true"
+
+  # Google Analytics
+  GOOGLE_ANALYTICS = "UA-123-45"
+
+  # Giscus
+  GISCUS_REPO = "IshiNoKami/CoH_comments"
+  GISCUS_REPO_ID = "R_kgDOPh0wKA"
+  GISCUS_CATEGORY = "General"
+  GISCUS_CATEGORY_ID = "DIC_kwDOPh0wKM4CubO-"
+  GISCUS_MAPPING = "pathname"
+  GISCUS_REACTIONS_ENABLED = "true"
+  GISCUS_INPUT_POSITION = "bottom"
+  GISCUS_THEME = "preferred_color_scheme"
+  GISCUS_LANG = "ru"
+
+[context.deploy-preview]
+  command = "hugo --buildDrafts --minify"
