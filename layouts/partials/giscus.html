@@ -1,0 +1,32 @@
+<script src="https://giscus.app/client.js" data-repo="IshiNoKami/CoH_comments" data-repo-id="R_kgDOPh0wKA"
+    data-category="General" data-category-id="DIC_kwDOPh0wKM4CubO-" data-mapping="pathname" data-strict="0"
+    data-reactions-enabled="1" data-emit-metadata="0" data-input-position="bottom" data-theme="preferred_color_scheme"
+    data-lang="ru" crossorigin="anonymous" async>
+    </script>
+<script>
+    function updateGiscusTheme(newTheme) {
+        const iframe = document.querySelector('#giscus-container iframe.giscus-frame');
+        if (!iframe) return;
+
+        iframe.contentWindow.postMessage({
+            giscus: {
+                setConfig: {
+                    theme: newTheme
+                }
+            }
+        }, 'https://giscus.app');
+    }
+
+    // Пример: меняем тему при переключении темы сайта
+    const darkModeMedia = window.matchMedia('(prefers-color-scheme: dark)');
+
+    function applyTheme() {
+        const theme = darkModeMedia.matches ? 'dark' : 'light';
+        updateGiscusTheme(theme);
+    }
+
+    darkModeMedia.addEventListener('change', applyTheme);
+
+    // Устанавливаем сразу текущую тему
+    applyTheme();
+</script>

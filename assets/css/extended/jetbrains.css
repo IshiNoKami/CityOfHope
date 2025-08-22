@@ -1,0 +1,25 @@
+/* JetBrains Mono + swap */
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+
+/* Глобально на всё */
+html {
+    font-family: 'JetBrains Mono', monospace !important;
+}
+
+body,
+button,
+input,
+select,
+textarea,
+nav,
+a,
+.post-title,
+.site-title,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: inherit !important;
+}

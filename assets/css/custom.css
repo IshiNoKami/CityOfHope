@@ -1,0 +1,27 @@
+/* Подключаем JetBrains Mono со всеми начальными весами */
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+
+/* Глобально для всего сайта */
+html,
+body {
+    font-family: 'JetBrains Mono', monospace !important;
+}
+
+/* Для всех заголовков */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'JetBrains Mono', monospace !important;
+    font-weight: 600;
+    /* чуть жирнее, чтобы лучше выделялись */
+}
+
+/* Для навигации, кнопок и ссылок */
+nav,
+a,
+button {
+    font-family: 'JetBrains Mono', monospace !important;
+}

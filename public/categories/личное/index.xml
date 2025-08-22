@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Личное on City of Hope</title><link>http://localhost:1313/categories/%D0%BB%D0%B8%D1%87%D0%BD%D0%BE%D0%B5/</link><description>Recent content in Личное on City of Hope</description><generator>Hugo -- 0.148.2</generator><language>en-us</language><lastBuildDate>Tue, 19 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/%D0%BB%D0%B8%D1%87%D0%BD%D0%BE%D0%B5/index.xml" rel="self" type="application/rss+xml"/><item><title>Первый пост миграции</title><link>http://localhost:1313/posts/%D0%BF%D0%BE%D1%81%D1%82-2/</link><pubDate>Tue, 19 Aug 2025 00:00:00 +0000</pubDate><guid>http://localhost:1313/posts/%D0%BF%D0%BE%D1%81%D1%82-2/</guid><description>&lt;p>Пришло время писать пост, кажется всё хорошо
+Я даже разобрался с этой сложной структурой&lt;/p>
+&lt;p>Теперь проверка:&lt;/p>
+&lt;h1 id="h1">H1&lt;/h1>
+&lt;h2 id="h2">H2&lt;/h2>
+&lt;h3 id="h3">H3&lt;/h3>
+&lt;h4 id="h4">H4&lt;/h4>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Month&lt;/th>
+&lt;th>Savings&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>January&lt;/td>
+&lt;td>$250&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>February&lt;/td>
+&lt;td>$80&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>March&lt;/td>
+&lt;td>$420&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> False&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> True
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> tTrue&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>Цитата 1 идет
+цитата продолжается&lt;/p>&lt;/blockquote>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-javascript" data-lang="javascript">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">var&lt;/span> &lt;span style="color:#a6e22e">s&lt;/span> &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#e6db74">&amp;#34;Подсветка JavaScript&amp;#34;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">alert&lt;/span>(&lt;span style="color:#a6e22e">s&lt;/span>);
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h4 id="о-проекте">О проекте&lt;/h4>
+&lt;p>Пришло время писать пост, кажется всё хорошо
+Я даже разобрался с этой сложной структурой&lt;/p>
+&lt;p>Теперь проверка:&lt;/p>
+&lt;h1 id="h1-1">H1&lt;/h1>
+&lt;h2 id="h2-1">H2&lt;/h2>
+&lt;h3 id="h3-1">H3&lt;/h3>
+&lt;h4 id="h4-1">H4&lt;/h4>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Month&lt;/th>
+&lt;th>Savings&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>January&lt;/td>
+&lt;td>$250&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>February&lt;/td>
+&lt;td>$80&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>March&lt;/td>
+&lt;td>$420&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> False&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> True
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> tTrue&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>Цитата 1 идет
+цитата продолжается&lt;/p></description></item></channel></rss>
