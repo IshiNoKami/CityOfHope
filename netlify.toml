@@ -1,5 +1,3 @@
-# netlify.toml
-
 [build]
   command = "hugo --minify"
   publish = "public"
@@ -8,11 +6,12 @@
   HUGO_VERSION = "0.148.2"
   HUGO_ENV = "production"
   HUGO_ENABLEGITINFO = "true"
+  HUGO_BASEURL = "https://city-of-hope.netlify.app/"
 
   # Google Analytics
   GOOGLE_ANALYTICS = "UA-123-45"
 
-  # Giscus
+  # Giscus (на случай использования env)
   GISCUS_REPO = "IshiNoKami/CoH_comments"
   GISCUS_REPO_ID = "R_kgDOPh0wKA"
   GISCUS_CATEGORY = "General"
